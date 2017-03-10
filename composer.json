@@ -21,12 +21,12 @@
         }
     ],
     "require": {
-        "php":                             ">=5.3.3",
+        "php":                             "^5.6|^7.0",
 
         "symfony/framework-bundle":        "~2.3",
         "stof/doctrine-extensions-bundle": "~1.1",
-        "sylius/resource-bundle":          "^1.0",
-        "sylius/subscription":             "^1.0"
+        "sylius/resource-bundle":          "^1.0@beta",
+        "sylius/subscription":             "^1.0@beta"
     },
     "require-dev": {
         "phpspec/phpspec":   "~2.0",
